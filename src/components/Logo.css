@@ -1,0 +1,14 @@
+.logo-container {
+  margin-top: 30px;
+}
+
+.logo-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.1);
+}

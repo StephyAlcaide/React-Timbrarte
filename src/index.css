@@ -1,0 +1,94 @@
+/* Estilo global */
+body {
+  font-family: 'Rouge Script', cursive;
+  background-color: #fffdfc;
+  color: #2c2c2c;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Contenedor principal */
+.app-container {
+  padding: 20px;
+}
+
+/* Título principal */
+.titulo {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2c2c2c;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  font-size: 1.2em;
+  color: #5a5a5a;
+}
+
+/* Logo */
+.logo-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.1);
+}
+
+/* Galería */
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.producto {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  width: 200px;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.producto h3 {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+}
+
+.producto p {
+  margin: 0;
+  color: #6a6a6a;
+}
+
+/* Botón */
+.producto button {
+  background-color: #823bb9;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.producto button:hover {
+  background-color: #a94cf0;
+}
